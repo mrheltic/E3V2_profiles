@@ -5,7 +5,6 @@ This repository contains the custom start and end G-Code for the Creality Ender 
 ## Custom Start G-Code
 
 ```gcode
-
 ; --- Start of custom START G-Code for Creality Ender 3 V2 with BL-Touch and latest https://github.com/Jyers/Marlin/releases UBL firmware installed and Cura Slicer ---
 
 ; --- (Optional) Start G-Code for Octoprint Octolapse Plugin ---
@@ -64,7 +63,6 @@ G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish
 M400 ; Wait for current moves to finish
 
 ; --- End of custom START G-Code for Creality Ender 3 V2 with BL-Touch and latest https://github.com/Jyers/Marlin/releases UBL firmware installed and Cura Slicer ---
-
 ```
 
 ## Custom End G-Code
